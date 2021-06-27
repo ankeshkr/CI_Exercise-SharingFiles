@@ -17,9 +17,9 @@ jobs:
       - run: cat output.txt
       - attach_workspace:
           at: ~/
-my_workflows:
+workflows:
   # Name the workflow "welcome"
-  welcome:
+  my_workflow:
     # Run the welcome/run job in its own container
     jobs:
    #   - welcome/run
