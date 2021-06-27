@@ -27,5 +27,3 @@ workflows:
       - print_output_file:
           requires: 
             - save_hello_world_output
-          
-© 2021 GitHub, Inc.
